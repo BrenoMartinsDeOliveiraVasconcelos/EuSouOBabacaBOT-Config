@@ -1,8 +1,8 @@
 {
-    "python": "/home/breno/Codes/lucasbot/pyenv/bin/python3",
+    "python": "/home/breno/Codes/lucasbot/venv/bin/python3",
     "bot_path": "/home/breno/Codes/lucasbot",
     "db": {
-        "host": "192.168.1.21",
+        "host": "localhost",
         "user": "breno",
         "database": "lucasbot",
         "api_id": 1
@@ -20,7 +20,7 @@
         "log_verbose": false,
         "injectable": false
     },
-    "config": "/home/breno/Disk2/Settings",
+    "config": "/srv/lucasbot/Settings",
     "upper_text": "Bem-vindo ao subreddit.",
     "submissions": "500",
     "cutting_chars": 9900,
@@ -28,14 +28,14 @@
     "log_subreddit": "EuSouOBabacaBOT",
     "min_before_lock": 3,
     "backup": {
-        "path": "/home/breno/Disk2/Backups",
+        "path": "/srv/lucasbot/Backups",
         "time": ["00:00"],
         "max_days": 3
     },
     "stat": {
-        "csv_path": "/home/breno/Disk2/Stat"
+        "csv_path": "/srv/lucasbot/Stat"
     },
-    "list_path": "/home/breno/Disk2/TextFiles",
+    "list_path": "/srv/lucasbot/TextFiles",
     "clear_log": ["00:00"],
     "break_time": 604800,
     "replace_list": ["!", "?", ".", ",", ":", "(", ")", "[", "]", "{", "}", "-", "+", "/", "\\", "'", "\u0022", "~", "\n", "\n\n"],
@@ -73,10 +73,8 @@
         "min_sentences": 2,
         "max_body": 9000,
         "min_body": 200,
-        "filter_human": true,
-        "age_regex": "(?:.*?)(1[0-9]{0,2}|200|[1-9]?[0-9])(H|M|NB|h|m|nb|mulher|homem|MULHER|HOMEM|não-binário|NÃO-BINÁRIO|nao-binario|NAO-BINARIO|não binário|NÃO BINÁRIO|nao binario| NAO BINARIO)?(?:.*?)",
-        "gender_regex": "(?:.*?)([1-9][0-9]?|1[0-9]{2}|200)?(H|M|NB|h|m|nb|mulher|homem|MULHER|HOMEM|não-binário|NÃO-BINÁRIO|nao-binario|NAO-BINARIO|não binário|NÃO BINÁRIO|nao binario| NAO BINARIO)(?:.*?)"
-    },
+        "filter_human": true
+         },
     "karma_filter": {
         "enabled": false,
         "min": 2,

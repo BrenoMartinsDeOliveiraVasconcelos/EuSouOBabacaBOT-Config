@@ -1,0 +1,2 @@
+((m|M|mulher|MULHER|h|H|homem|HOMEM|nb|NB|não-binário|nao-binario|não binário|nao binario|[() ,.]|)[0-9](m|M|mulher|MULHER|h|H|homem|HOMEM|nb|NB|não-binário|nao-binario|não binário|nao binario|[() ,.]|))
+([() ,.]|)(?:[0-9]|)([0-9])(?:m|M|mulher|MULHER|h|H|homem|HOMEM|nb|NB|não-binário|nao-binario|não binário|nao binario|)([() ,.]|)([0-9]|)([0-9]|)
