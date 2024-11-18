@@ -10,14 +10,14 @@
     "info": {
         "name": "Lucas Bot",
         "character": "Lucas",
-        "version": "v24.11d13",
+        "version": "v24.11d14",
         "creator": "JakeWisconsin",
         "author": "Breno Martins",
         "github": "https://github.com/BrenoMartinsDeOliveiraVasconcelos/lucasbot",
         "config_github": "https://github.com/BrenoMartinsDeOliveiraVasconcelos/EuSouOBabacaBOT-Config"
     },
     "debug": {
-        "log_verbose": false,
+        "log_verbose": true,
         "injectable": false
     },
     "config": "/srv/lucasbot/Settings",
@@ -40,7 +40,7 @@
     "break_time": 604800,
     "replace_list": ["!", "?", ".", ",", ":", "(", ")", "[", "]", "{", "}", "-", "+", "/", "\\", "'", "\u0022", "~", "\n", "\n\n"],
     "sleep_time": {
-        "main": 0,
+        "main": 0.1,
         "textwall": 0.1,
         "justification": 0.1,
         "filter_sub": 0.2,
@@ -49,7 +49,7 @@
         "stat": 3600,
         "lock_com": 0.1 
     },
-    "exdigit": [11, 0, 0, 41, 15, 38, 35],
+    "exdigit": [11, 0, 0, 41, 15, 35],
     "flairs": {
         "NEOB": ["fad0940c-6841-11ed-baed-365116e43406", 0, "Não é o babaca (e o resto sim)"],
         "EOB": ["e46b8208-6841-11ed-99cd-cec761e4d61c", 0, "É o babaca"],
