@@ -10,19 +10,19 @@
     "info": {
         "name": "Lucas Bot",
         "character": "Lucas",
-        "version": "v24.11d14",
+        "version": "v24.11d23",
         "creator": "JakeWisconsin",
         "author": "Breno Martins",
         "github": "https://github.com/BrenoMartinsDeOliveiraVasconcelos/lucasbot",
         "config_github": "https://github.com/BrenoMartinsDeOliveiraVasconcelos/EuSouOBabacaBOT-Config"
     },
     "debug": {
-        "log_verbose": true,
+        "log_verbose": false,
         "injectable": false
     },
     "config": "/srv/lucasbot/Settings",
-    "upper_text": "Bem-vindo ao subreddit.",
-    "submissions": "500",
+    "upper_text": "[Responde nossa pesquisa por favorzinho?](https://forms.gle/SHjoD3HeS6vHJkxL9)",
+    "submissions": "250",
     "cutting_chars": 9900,
     "subreddit": "EuSouOBabaca",
     "log_subreddit": "EuSouOBabacaBOT",
@@ -35,21 +35,22 @@
     "stat": {
         "csv_path": "/srv/lucasbot/Stat"
     },
+    "submission_json_path": "/srv/lucasbot",
     "list_path": "/srv/lucasbot/TextFiles",
     "clear_log": ["00:00"],
     "break_time": 604800,
     "replace_list": ["!", "?", ".", ",", ":", "(", ")", "[", "]", "{", "}", "-", "+", "/", "\\", "'", "\u0022", "~", "\n", "\n\n"],
     "sleep_time": {
-        "main": 0.1,
-        "textwall": 0.1,
-        "justification": 0.1,
-        "filter_sub": 0.2,
-        "filter_com": 0.1,
+        "main": 0,
+        "textwall": 0,
+        "justification": 0,
+        "filter_sub": 0,
+        "filter_com": 0,
         "backup": 60,
         "stat": 3600,
-        "lock_com": 0.1 
+        "subreddit_data": 0.1,
+        "after_finish_sd": 1
     },
-    "exdigit": [11, 0, 0, 41, 15, 35],
     "flairs": {
         "NEOB": ["fad0940c-6841-11ed-baed-365116e43406", 0, "Não é o babaca (e o resto sim)"],
         "EOB": ["e46b8208-6841-11ed-99cd-cec761e4d61c", 0, "É o babaca"],
@@ -74,10 +75,5 @@
         "max_body": 9000,
         "min_body": 200,
         "filter_human": true
-         },
-    "karma_filter": {
-        "enabled": false,
-        "min": 2,
-        "wait": 3600
-    }
+        }
 }
