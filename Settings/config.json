@@ -10,9 +10,10 @@
     "info": {
         "name": "Lucas Bot",
         "character": "Lucas",
-        "version": "v24.11d23",
+        "version": "v24.12d13",
         "creator": "JakeWisconsin",
         "author": "Breno Martins",
+        "owner": "JakeWisconsin",
         "github": "https://github.com/BrenoMartinsDeOliveiraVasconcelos/lucasbot",
         "config_github": "https://github.com/BrenoMartinsDeOliveiraVasconcelos/EuSouOBabacaBOT-Config"
     },
@@ -21,7 +22,7 @@
         "injectable": false
     },
     "config": "/srv/lucasbot/Settings",
-    "upper_text": "[Responde nossa pesquisa por favorzinho?](https://forms.gle/SHjoD3HeS6vHJkxL9)",
+    "upper_text": "[Quer apenas falar de uma situação ruim da sua vida ou contar algo cômico que lhe aconteceu? Entre no nosso subreddit irmão!](https://www.reddit.com/r/vidademerda/)",
     "submissions": "250",
     "cutting_chars": 9900,
     "subreddit": "EuSouOBabaca",
@@ -47,9 +48,7 @@
         "filter_sub": 0,
         "filter_com": 0,
         "backup": 60,
-        "stat": 3600,
-        "subreddit_data": 0.1,
-        "after_finish_sd": 1
+        "stat": 3600
     },
     "flairs": {
         "NEOB": ["fad0940c-6841-11ed-baed-365116e43406", 0, "Não é o babaca (e o resto sim)"],
