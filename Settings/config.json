@@ -73,6 +73,12 @@
         "min_sentences": 2,
         "max_body": 9000,
         "min_body": 200,
-        "filter_human": true
+        "filter_human": true,
+        "karma_checker": {
+                "enabled": true,
+                "min": 2,
+                "timeout": 3600,
+                "after_timeout_report_when": 0 
+            } 
         }
 }
