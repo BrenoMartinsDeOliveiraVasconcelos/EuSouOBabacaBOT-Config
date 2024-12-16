@@ -1,3 +1,6 @@
-((m|M|mulher|MULHER|h|H|homem|HOMEM|nb|NB|não-binário|nao-binario|não binário|nao binario|[() ,.]|)[0-9](m|M|mulher|MULHER|h|H|homem|HOMEM|nb|NB|não-binário|nao-binario|não binário|nao binario|[() ,.]|))
-([() ,.]|)(?:[0-9]|)([0-9])(?:m|M|mulher|MULHER|h|H|homem|HOMEM|nb|NB|não-binário|nao-binario|não binário|nao binario|)([() ,.]|)([0-9]|)([0-9]|)
+([^\w]| )(H|M|NB|HOMEM|MULHER|NÃO-BINÁRIO|NÃO BINÁRIO|)[0-9]{1,2}(H|M|NB|HOMEM|MULHER|NÃO-BINÁRIO|NÃO BINÁRIO|)([^\w]| )
+([^\w]|\d)([H]|[M]|[F]|[N][B]|(NÃO|NAO)([ -])(BINÁRIO|BINARIO)|(HOMEM|MULHER))([^\w]|[\d])([\d]|)([^\w])
 ([0-9]{1,2}|)(( |\(|){1,2})([0-9]{1,2}|)(( |\)|){1,2})([0-9]{4,5})(-| |)([0-9]{3,4}|)
+((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])
+(\d{3}\.\d{3}\.\d{3}\-\d{2})
+https?:\/\/(?:www\.)?([-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b)*(\/[\/\d\w\.-]*)*(?:[\?])*(.+)*
