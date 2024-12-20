@@ -10,7 +10,7 @@
     "info": {
         "name": "Lucas Bot",
         "character": "Lucas",
-        "version": "v24.12d16",
+        "version": "v24.12d20",
         "creator": "JakeWisconsin",
         "author": "Breno Martins",
         "owner": "JakeWisconsin",
@@ -28,6 +28,7 @@
     "subreddit": "EuSouOBabaca",
     "log_subreddit": "EuSouOBabacaBOT",
     "min_before_lock": 3,
+    "remove_votes": 7,
     "backup": {
         "path": "/srv/lucasbot/Backups",
         "time": ["00:00"],
