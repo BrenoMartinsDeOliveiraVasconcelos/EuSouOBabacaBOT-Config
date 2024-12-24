@@ -10,7 +10,7 @@
     "info": {
         "name": "Lucas Bot",
         "character": "Lucas",
-        "version": "v24.12d20",
+        "version": "v24.12d24",
         "creator": "JakeWisconsin",
         "author": "Breno Martins",
         "owner": "JakeWisconsin",
@@ -22,7 +22,7 @@
         "injectable": false
     },
     "config": "/srv/lucasbot/Settings",
-    "upper_text": "[Quer apenas falar de uma situação ruim da sua vida ou contar algo cômico que lhe aconteceu? Entre no nosso subreddit irmão!](https://www.reddit.com/r/vidademerda/)",
+    "upper_text": "Feliz natal e um próspero ano novo!",
     "submissions": "250",
     "cutting_chars": 9900,
     "subreddit": "EuSouOBabaca",
